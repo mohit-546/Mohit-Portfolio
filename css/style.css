@@ -771,7 +771,10 @@ main {
  * education and experience 
  */
 
-.timeline { margin-bottom: 30px; }
+.timeline {display: none;
+visibility: hidden;
+opacity: 0;
+ }
 
 .timeline .title-wrapper {
   display: flex;
